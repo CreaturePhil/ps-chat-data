@@ -26,9 +26,13 @@ app.post('/add', function (req, res) {
     if (req.body.token !== token) {
         return res.json({ success: false });
     }
-    var data = req.body.data;
-    delete data.token;
-    var message = new Messages(data);
+    var message = new Messages({
+        name: req.body.name,
+        message: req.body.message,
+        date: req.body.date,
+        type: req.body.type,
+        typeData: req.body.typeData
+    });
     message.save(function (err) {
         if (err) {
             console.error(err);
