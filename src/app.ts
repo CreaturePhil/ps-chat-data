@@ -31,13 +31,11 @@ app.get('/', (req, res) => {
 });
 
 app.post('/add', (req, res) => {
-  console.log(req.body.token === token);
-  console.log(req.body);
-  console.log(req.body.token, token);
+  console.log(req.body.data);
   if (req.body.token !== token) {
     return res.json({success: false});
   }
-  const message = new Messages(req.body.data);
+  let message = new Messages(req.body.data);
   message.save((err) => {
     if (err) {
       console.error(err);

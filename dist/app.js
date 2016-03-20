@@ -21,9 +21,7 @@ app.get('/', function (req, res) {
     res.send('hello world!');
 });
 app.post('/add', function (req, res) {
-    console.log(req.body.token === token);
-    console.log(req.body);
-    console.log(req.body.token, token);
+    console.log(req.body.data);
     if (req.body.token !== token) {
         return res.json({ success: false });
     }
