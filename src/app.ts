@@ -31,6 +31,8 @@ app.get('/', (req, res) => {
 });
 
 app.post('/add', (req, res) => {
+  console.log(req.body.token === token);
+  console.log(req.body.token, token);
   if (req.body.token !== token) {
     return res.json({success: false});
   }
