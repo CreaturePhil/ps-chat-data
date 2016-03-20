@@ -21,10 +21,8 @@ app.get('/', function (req, res) {
     res.send('hello world!');
 });
 app.post('/add', function (req, res) {
-    console.log(req.body);
-    console.log('json', JSON.stringify(req.body));
     if (req.body.token !== token) {
-        return res.json({ success: false });
+        return res.send('failure');
     }
     var message = new Messages({
         name: req.body.name,
@@ -36,10 +34,10 @@ app.post('/add', function (req, res) {
     message.save(function (err) {
         if (err) {
             console.error(err);
-            res.json({ success: false });
+            res.send('failure');
         }
         else {
-            res.json({ success: true });
+            res.json('success');
         }
     });
 });
