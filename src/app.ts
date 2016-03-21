@@ -2,6 +2,7 @@ import * as express from 'express';
 import * as mongoose from 'mongoose';
 import * as bodyParser from 'body-parser';
 import * as fs from 'fs';
+import * as _ from 'lodash';
 
 import reduce from './data/reducer';
 
@@ -85,6 +86,17 @@ app.get('/user', (req, res) => {
      .value();
 
      res.json(reduce(names, 'user', 100));
+  });
+});
+
+app.get('/room', (req, res) => {
+  Messages.find({}, (err, data) => {
+    const rooms = _.chain(data)
+     .filter({type: 'room'})
+     .map('typeData')
+     .value();
+
+     res.json(reduce(rooms, 'room', 100));
   });
 });
 

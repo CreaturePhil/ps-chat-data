@@ -2,6 +2,7 @@
 var express = require('express');
 var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
+var _ = require('lodash');
 var reducer_1 = require('./data/reducer');
 var app = express();
 app.set('json spaces', 4);
@@ -67,6 +68,15 @@ app.get('/user', function (req, res) {
             .map('name')
             .value();
         res.json(reducer_1.default(names, 'user', 100));
+    });
+});
+app.get('/room', function (req, res) {
+    Messages.find({}, function (err, data) {
+        var rooms = _.chain(data)
+            .filter({ type: 'room' })
+            .map('typeData')
+            .value();
+        res.json(reducer_1.default(rooms, 'room', 100));
     });
 });
 app.listen(port, function () { return console.log('Listening on port ' + port); });
