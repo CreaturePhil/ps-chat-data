@@ -1,8 +1,14 @@
 import * as express from 'express';
 import * as mongoose from 'mongoose';
 import * as bodyParser from 'body-parser';
+import * as fs from 'fs';
+
+import mostUsedWord from './data/mostUsedWord';
+import mostUsedPhrase from './data/mostUsedPhrase';
 
 const app = express();
+
+app.set('json spaces', 4);
 
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({extended: false}));
@@ -46,8 +52,20 @@ app.post('/add', (req, res) => {
       console.error(err);
       res.send('failure');
     } else {
-      res.json('success');
+      res.send('success');
     }
+  });
+});
+
+app.get('/word', (req, res) => {
+  mostUsedWord(Messages, 100, (word) => {
+    res.json(word);
+  });
+});
+
+app.get('/phrase', (req, res) => {
+  mostUsedPhrase(Messages, 100, (phrase) => {
+    res.json(phrase);
   });
 });
 

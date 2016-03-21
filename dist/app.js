@@ -2,7 +2,10 @@
 var express = require('express');
 var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
+var mostUsedWord_1 = require('./data/mostUsedWord');
+var mostUsedPhrase_1 = require('./data/mostUsedPhrase');
 var app = express();
+app.set('json spaces', 4);
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 var token = process.env.TOKEN;
@@ -37,8 +40,18 @@ app.post('/add', function (req, res) {
             res.send('failure');
         }
         else {
-            res.json('success');
+            res.send('success');
         }
+    });
+});
+app.get('/word', function (req, res) {
+    mostUsedWord_1.default(Messages, 100, function (word) {
+        res.json(word);
+    });
+});
+app.get('/phrase', function (req, res) {
+    mostUsedPhrase_1.default(Messages, 100, function (phrase) {
+        res.json(phrase);
     });
 });
 app.listen(port, function () { return console.log('Listening on port ' + port); });
