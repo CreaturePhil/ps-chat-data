@@ -3,8 +3,7 @@ import * as mongoose from 'mongoose';
 import * as bodyParser from 'body-parser';
 import * as fs from 'fs';
 
-import mostUsedWord from './data/mostUsedWord';
-import mostUsedPhrase from './data/mostUsedPhrase';
+import reduce from './data/reducer';
 
 const app = express();
 
@@ -58,14 +57,34 @@ app.post('/add', (req, res) => {
 });
 
 app.get('/word', (req, res) => {
-  mostUsedWord(Messages, 100, (word) => {
-    res.json(word);
+  Messages.find({}, (err, data) => {
+    const words = _.chain(data)
+     .map('message')
+     .map(_.words)
+     .flatten()
+     .value();
+
+     res.json(reduce(words, 'word', 100));
   });
 });
 
 app.get('/phrase', (req, res) => {
-  mostUsedPhrase(Messages, 100, (phrase) => {
-    res.json(phrase);
+  Messages.find({}, (err, data) => {
+    const phrases = _.chain(data)
+     .map('message')
+     .value();
+
+     res.json(reduce(phrases, 'phrase', 100));
+  });
+});
+
+app.get('/user', (req, res) => {
+  Messages.find({}, (err, data) => {
+    const names = _.chain(data)
+     .map('name')
+     .value();
+
+     res.json(reduce(names, 'user', 100));
   });
 });
 

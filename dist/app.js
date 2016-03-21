@@ -2,8 +2,7 @@
 var express = require('express');
 var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
-var mostUsedWord_1 = require('./data/mostUsedWord');
-var mostUsedPhrase_1 = require('./data/mostUsedPhrase');
+var reducer_1 = require('./data/reducer');
 var app = express();
 app.set('json spaces', 4);
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -45,13 +44,29 @@ app.post('/add', function (req, res) {
     });
 });
 app.get('/word', function (req, res) {
-    mostUsedWord_1.default(Messages, 100, function (word) {
-        res.json(word);
+    Messages.find({}, function (err, data) {
+        var words = _.chain(data)
+            .map('message')
+            .map(_.words)
+            .flatten()
+            .value();
+        res.json(reducer_1.default(words, 'word', 100));
     });
 });
 app.get('/phrase', function (req, res) {
-    mostUsedPhrase_1.default(Messages, 100, function (phrase) {
-        res.json(phrase);
+    Messages.find({}, function (err, data) {
+        var phrases = _.chain(data)
+            .map('message')
+            .value();
+        res.json(reducer_1.default(phrases, 'phrase', 100));
+    });
+});
+app.get('/user', function (req, res) {
+    Messages.find({}, function (err, data) {
+        var names = _.chain(data)
+            .map('name')
+            .value();
+        res.json(reducer_1.default(names, 'user', 100));
     });
 });
 app.listen(port, function () { return console.log('Listening on port ' + port); });

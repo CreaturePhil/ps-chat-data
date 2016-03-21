@@ -2,10 +2,10 @@
 var _ = require('lodash');
 function mostUsedPhrase(Messages, amount, callback) {
     Messages.find({}, function (err, data) {
-        var words = _.chain(data)
+        var phrases = _.chain(data)
             .map('message')
             .value();
-        var phraseCount = _.reduce(words, function (acc, cur) {
+        var phraseCount = _.reduce(phrases, function (acc, cur) {
             acc[cur] = (acc[cur] || 0) + 1;
             return acc;
         }, {});
