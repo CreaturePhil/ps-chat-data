@@ -36,6 +36,12 @@ app.get('/', (req, res) => {
   res.send('hello world!');
 });
 
+app.get('/data', (req, res) => {
+  Messages.find({}, (err, data) => {
+    res.json(data);
+  });
+});
+
 app.post('/add', (req, res) => {
   if (req.body.token !== token) {
     return res.send('failure');
