@@ -23,6 +23,12 @@ var Messages = mongoose.model('Message', MessageModel);
 app.get('/', function (req, res) {
     res.send('hello world!');
 });
+app.get('some', function (req, res) {
+    var q = Messages.find({}).sort({ 'date': -1 }).limit(20000);
+    q.exec(function (err, messages) {
+        res.json(messages);
+    });
+});
 app.get('/data', function (req, res) {
     Messages.find({}, function (err, data) {
         res.json(data);
