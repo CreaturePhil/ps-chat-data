@@ -36,7 +36,7 @@ app.get('/', (req, res) => {
   res.send('hello world!');
 });
 
-app.get('some', (req, res) => {
+app.get('/some', (req, res) => {
   const q = Messages.find({}).sort({'date': -1}).limit(20000);
   q.exec((err, messages) => {
     res.json(messages);
