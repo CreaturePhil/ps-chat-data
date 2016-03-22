@@ -36,19 +36,6 @@ app.get('/', (req, res) => {
   res.send('hello world!');
 });
 
-app.get('/some', (req, res) => {
-  const q = Messages.find({}).sort({'date': -1}).limit(20000);
-  q.exec((err, messages) => {
-    res.json(messages);
-  });
-});
-
-app.get('/data', (req, res) => {
-  Messages.find({}, (err, data) => {
-    res.json(data);
-  });
-});
-
 app.post('/add', (req, res) => {
   if (req.body.token !== token) {
     return res.send('failure');
@@ -71,45 +58,57 @@ app.post('/add', (req, res) => {
 });
 
 app.get('/word', (req, res) => {
-  Messages.find({}, (err, data) => {
-    const words = _.chain(data)
-     .map('message')
-     .map(_.words)
-     .flatten()
-     .value();
+  const q = Messages.find({}).sort({'date': -1}).limit(20000);
+  q.exec((err, data) => {
+    Messages.find({}, (err, data) => {
+      const words = _.chain(data)
+       .map('message')
+       .map(_.words)
+       .flatten()
+       .value();
 
-     res.json(reduce(words, 'word', 100));
+       res.json(reduce(words, 'word', 100));
+    });
   });
 });
 
 app.get('/phrase', (req, res) => {
-  Messages.find({}, (err, data) => {
+  const q = Messages.find({}).sort({'date': -1}).limit(20000);
+  q.exec((err, data) => {
+    Messages.find({}, (err, data) => {
     const phrases = _.chain(data)
      .map('message')
      .value();
 
      res.json(reduce(phrases, 'phrase', 100));
+    });
   });
 });
 
 app.get('/user', (req, res) => {
-  Messages.find({}, (err, data) => {
+  const q = Messages.find({}).sort({'date': -1}).limit(20000);
+  q.exec((err, data) => {
+    Messages.find({}, (err, data) => {
     const names = _.chain(data)
      .map('name')
      .value();
 
      res.json(reduce(names, 'user', 100));
+    });
   });
 });
 
 app.get('/room', (req, res) => {
-  Messages.find({}, (err, data) => {
+  const q = Messages.find({}).sort({'date': -1}).limit(20000);
+  q.exec((err, data) => {
+    Messages.find({}, (err, data) => {
     const rooms = _.chain(data)
      .filter({type: 'room'})
      .map('typeData')
      .value();
 
      res.json(reduce(rooms, 'room', 100));
+    });
   });
 });
 

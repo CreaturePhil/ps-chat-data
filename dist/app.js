@@ -23,17 +23,6 @@ var Messages = mongoose.model('Message', MessageModel);
 app.get('/', function (req, res) {
     res.send('hello world!');
 });
-app.get('/some', function (req, res) {
-    var q = Messages.find({}).sort({ 'date': -1 }).limit(20000);
-    q.exec(function (err, messages) {
-        res.json(messages);
-    });
-});
-app.get('/data', function (req, res) {
-    Messages.find({}, function (err, data) {
-        res.json(data);
-    });
-});
 app.post('/add', function (req, res) {
     if (req.body.token !== token) {
         return res.send('failure');
@@ -56,38 +45,50 @@ app.post('/add', function (req, res) {
     });
 });
 app.get('/word', function (req, res) {
-    Messages.find({}, function (err, data) {
-        var words = _.chain(data)
-            .map('message')
-            .map(_.words)
-            .flatten()
-            .value();
-        res.json(reducer_1.default(words, 'word', 100));
+    var q = Messages.find({}).sort({ 'date': -1 }).limit(20000);
+    q.exec(function (err, data) {
+        Messages.find({}, function (err, data) {
+            var words = _.chain(data)
+                .map('message')
+                .map(_.words)
+                .flatten()
+                .value();
+            res.json(reducer_1.default(words, 'word', 100));
+        });
     });
 });
 app.get('/phrase', function (req, res) {
-    Messages.find({}, function (err, data) {
-        var phrases = _.chain(data)
-            .map('message')
-            .value();
-        res.json(reducer_1.default(phrases, 'phrase', 100));
+    var q = Messages.find({}).sort({ 'date': -1 }).limit(20000);
+    q.exec(function (err, data) {
+        Messages.find({}, function (err, data) {
+            var phrases = _.chain(data)
+                .map('message')
+                .value();
+            res.json(reducer_1.default(phrases, 'phrase', 100));
+        });
     });
 });
 app.get('/user', function (req, res) {
-    Messages.find({}, function (err, data) {
-        var names = _.chain(data)
-            .map('name')
-            .value();
-        res.json(reducer_1.default(names, 'user', 100));
+    var q = Messages.find({}).sort({ 'date': -1 }).limit(20000);
+    q.exec(function (err, data) {
+        Messages.find({}, function (err, data) {
+            var names = _.chain(data)
+                .map('name')
+                .value();
+            res.json(reducer_1.default(names, 'user', 100));
+        });
     });
 });
 app.get('/room', function (req, res) {
-    Messages.find({}, function (err, data) {
-        var rooms = _.chain(data)
-            .filter({ type: 'room' })
-            .map('typeData')
-            .value();
-        res.json(reducer_1.default(rooms, 'room', 100));
+    var q = Messages.find({}).sort({ 'date': -1 }).limit(20000);
+    q.exec(function (err, data) {
+        Messages.find({}, function (err, data) {
+            var rooms = _.chain(data)
+                .filter({ type: 'room' })
+                .map('typeData')
+                .value();
+            res.json(reducer_1.default(rooms, 'room', 100));
+        });
     });
 });
 app.listen(port, function () { return console.log('Listening on port ' + port); });
