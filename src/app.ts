@@ -22,6 +22,8 @@ const port: number = process.env.PORT || 3000;
 
 mongoose.connect(url);
 
+let l = {};
+
 const MessageModel = new mongoose.Schema({
   name: String,
   message: String,
@@ -31,6 +33,14 @@ const MessageModel = new mongoose.Schema({
 });
 
 const Messages = mongoose.model('Message', MessageModel);
+
+Messages.find({}, (err, data) => {
+const phrases = _.chain(data)
+ .map('message')
+ .value();
+
+ l = reduce(phrases, 'phrase', 100);
+});
 
 app.get('/', (req, res) => {
   res.send('hello world!');
@@ -46,6 +56,13 @@ app.post('/add', (req, res) => {
     date: req.body.date,
     type: req.body.type,
     typeData: req.body.typeData
+  });
+  Messages.find({}, (err, data) => {
+  const phrases = _.chain(data)
+   .map('message')
+   .value();
+
+   l = reduce(phrases, 'phrase', 100);
   });
   message.save((err) => {
     if (err) {
@@ -73,16 +90,7 @@ app.get('/word', (req, res, next) => {
 });
 
 app.get('/phrase', (req, res) => {
-  const q = Messages.find({}).sort({'date': -1}).limit(20000);
-  q.exec((err, data) => {
-    Messages.find({}, (err, data) => {
-    const phrases = _.chain(data)
-     .map('message')
-     .value();
-
-     res.json(reduce(phrases, 'phrase', 100));
-    });
-  });
+  res.json(l);
 });
 
 app.get('/user', (req, res) => {

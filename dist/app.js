@@ -12,6 +12,7 @@ var token = process.env.TOKEN;
 var url = process.env.MONGODB || 'mongodb://localhost:27017/myproject';
 var port = process.env.PORT || 3000;
 mongoose.connect(url);
+var l = {};
 var MessageModel = new mongoose.Schema({
     name: String,
     message: String,
@@ -20,6 +21,12 @@ var MessageModel = new mongoose.Schema({
     typeData: String
 });
 var Messages = mongoose.model('Message', MessageModel);
+Messages.find({}, function (err, data) {
+    var phrases = _.chain(data)
+        .map('message')
+        .value();
+    l = reducer_1.default(phrases, 'phrase', 100);
+});
 app.get('/', function (req, res) {
     res.send('hello world!');
 });
@@ -33,6 +40,12 @@ app.post('/add', function (req, res) {
         date: req.body.date,
         type: req.body.type,
         typeData: req.body.typeData
+    });
+    Messages.find({}, function (err, data) {
+        var phrases = _.chain(data)
+            .map('message')
+            .value();
+        l = reducer_1.default(phrases, 'phrase', 100);
     });
     message.save(function (err) {
         if (err) {
@@ -58,15 +71,7 @@ app.get('/word', function (req, res, next) {
     });
 });
 app.get('/phrase', function (req, res) {
-    var q = Messages.find({}).sort({ 'date': -1 }).limit(20000);
-    q.exec(function (err, data) {
-        Messages.find({}, function (err, data) {
-            var phrases = _.chain(data)
-                .map('message')
-                .value();
-            res.json(reducer_1.default(phrases, 'phrase', 100));
-        });
-    });
+    res.json(l);
 });
 app.get('/user', function (req, res) {
     var q = Messages.find({}).sort({ 'date': -1 }).limit(20000);
