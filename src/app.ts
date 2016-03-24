@@ -57,7 +57,7 @@ app.post('/add', (req, res) => {
   });
 });
 
-app.get('/word', (req, res) => {
+app.get('/word', (req, res, next) => {
   const q = Messages.find({}).sort({'date': -1}).limit(1000);
   q.exec((err, data) => {
     const words = _.chain(data)
