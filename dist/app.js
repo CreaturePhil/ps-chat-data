@@ -47,6 +47,7 @@ app.post('/add', function (req, res) {
 app.get('/word', function (req, res, next) {
     var q = Messages.find({}).sort({ 'date': -1 }).limit(1000);
     q.exec(function (err, data) {
+        cons;
         var words = _.chain(data)
             .map('message')
             .map(_.words)
