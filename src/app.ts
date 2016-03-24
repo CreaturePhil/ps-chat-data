@@ -60,15 +60,13 @@ app.post('/add', (req, res) => {
 app.get('/word', (req, res) => {
   const q = Messages.find({}).sort({'date': -1}).limit(1000);
   q.exec((err, data) => {
-    Messages.find({}, (err, data) => {
-      const words = _.chain(data)
-       .map('message')
-       .map(_.words)
-       .flatten()
-       .value();
+    const words = _.chain(data)
+     .map('message')
+     .map(_.words)
+     .flatten()
+     .value();
 
-       res.json(reduce(words, 'word', 100));
-    });
+     res.json(reduce(words, 'word', 100));
   });
 });
 

@@ -47,14 +47,12 @@ app.post('/add', function (req, res) {
 app.get('/word', function (req, res) {
     var q = Messages.find({}).sort({ 'date': -1 }).limit(1000);
     q.exec(function (err, data) {
-        Messages.find({}, function (err, data) {
-            var words = _.chain(data)
-                .map('message')
-                .map(_.words)
-                .flatten()
-                .value();
-            res.json(reducer_1.default(words, 'word', 100));
-        });
+        var words = _.chain(data)
+            .map('message')
+            .map(_.words)
+            .flatten()
+            .value();
+        res.json(reducer_1.default(words, 'word', 100));
     });
 });
 app.get('/phrase', function (req, res) {
