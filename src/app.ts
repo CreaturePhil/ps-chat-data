@@ -66,7 +66,7 @@ app.get('/phrase', (req, res) => {
 });
 
 app.get('/user', (req, res) => {
-  var stream = fs.createReadStream(path.join(__dirname, '../user.json'));
+  var stream = fs.createReadStream(path.join(__dirname, '../name.json'));
   stream.pipe(res);
 });
 

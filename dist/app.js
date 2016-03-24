@@ -53,7 +53,7 @@ app.get('/phrase', function (req, res) {
     stream.pipe(res);
 });
 app.get('/user', function (req, res) {
-    var stream = fs.createReadStream(path.join(__dirname, '../user.json'));
+    var stream = fs.createReadStream(path.join(__dirname, '../name.json'));
     stream.pipe(res);
 });
 app.get('/room', function (req, res) {
