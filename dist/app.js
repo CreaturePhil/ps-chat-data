@@ -45,7 +45,7 @@ app.post('/add', function (req, res) {
     });
 });
 app.get('/word', function (req, res) {
-    var q = Messages.find({}).sort({ 'date': -1 }).limit(20000);
+    var q = Messages.find({}).sort({ 'date': -1 }).limit(10000);
     q.exec(function (err, data) {
         Messages.find({}, function (err, data) {
             var words = _.chain(data)
