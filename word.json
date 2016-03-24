@@ -1,0 +1,3998 @@
+[
+  {
+    "word": "i",
+    "count": 26865
+  },
+  {
+    "word": "the",
+    "count": 24269
+  },
+  {
+    "word": "to",
+    "count": 23862
+  },
+  {
+    "word": "0",
+    "count": 20848
+  },
+  {
+    "word": "you",
+    "count": 20389
+  },
+  {
+    "word": "I",
+    "count": 19563
+  },
+  {
+    "word": "is",
+    "count": 19036
+  },
+  {
+    "word": "a",
+    "count": 18248
+  },
+  {
+    "word": "font",
+    "count": 17947
+  },
+  {
+    "word": "and",
+    "count": 15535
+  },
+  {
+    "word": "it",
+    "count": 13598
+  },
+  {
+    "word": "50",
+    "count": 12095
+  },
+  {
+    "word": "of",
+    "count": 10973
+  },
+  {
+    "word": "com",
+    "count": 9963
+  },
+  {
+    "word": "that",
+    "count": 9916
+  },
+  {
+    "word": "for",
+    "count": 9743
+  },
+  {
+    "word": "s",
+    "count": 9564
+  },
+  {
+    "word": "b",
+    "count": 9528
+  },
+  {
+    "word": "me",
+    "count": 9200
+  },
+  {
+    "word": "button",
+    "count": 9121
+  },
+  {
+    "word": "class",
+    "count": 9103
+  },
+  {
+    "word": "em",
+    "count": 9099
+  },
+  {
+    "word": "small",
+    "count": 9041
+  },
+  {
+    "word": "div",
+    "count": 8968
+  },
+  {
+    "word": "lol",
+    "count": 8318
+  },
+  {
+    "word": "http",
+    "count": 8119
+  },
+  {
+    "word": "in",
+    "count": 7995
+  },
+  {
+    "word": "3",
+    "count": 7902
+  },
+  {
+    "word": "have",
+    "count": 7866
+  },
+  {
+    "word": "do",
+    "count": 7746
+  },
+  {
+    "word": "The",
+    "count": 7582
+  },
+  {
+    "word": "5",
+    "count": 7222
+  },
+  {
+    "word": "my",
+    "count": 6900
+  },
+  {
+    "word": "on",
+    "count": 6846
+  },
+  {
+    "word": "9",
+    "count": 6826
+  },
+  {
+    "word": "u",
+    "count": 6281
+  },
+  {
+    "word": "1",
+    "count": 5918
+  },
+  {
+    "word": "t",
+    "count": 5779
+  },
+  {
+    "word": "title",
+    "count": 5726
+  },
+  {
+    "word": "imgur",
+    "count": 5703
+  },
+  {
+    "word": "height",
+    "count": 5698
+  },
+  {
+    "word": "img",
+    "count": 5697
+  },
+  {
+    "word": "src",
+    "count": 5692
+  },
+  {
+    "word": "width",
+    "count": 5691
+  },
+  {
+    "word": "was",
+    "count": 5448
+  },
+  {
+    "word": "with",
+    "count": 5395
+  },
+  {
+    "word": "not",
+    "count": 5387
+  },
+  {
+    "word": "name",
+    "count": 5343
+  },
+  {
+    "word": "or",
+    "count": 5304
+  },
+  {
+    "word": "like",
+    "count": 5250
+  },
+  {
+    "word": "can",
+    "count": 5223
+  },
+  {
+    "word": "this",
+    "count": 5190
+  },
+  {
+    "word": "png",
+    "count": 5125
+  },
+  {
+    "word": "so",
+    "count": 5090
+  },
+  {
+    "word": "2",
+    "count": 5008
+  },
+  {
+    "word": "are",
+    "count": 4891
+  },
+  {
+    "word": "user",
+    "count": 4794
+  },
+  {
+    "word": "chat",
+    "count": 4793
+  },
+  {
+    "word": "we",
+    "count": 4786
+  },
+  {
+    "word": "mine",
+    "count": 4779
+  },
+  {
+    "word": "no",
+    "count": 4740
+  },
+  {
+    "word": "just",
+    "count": 4632
+  },
+  {
+    "word": "color",
+    "count": 4581
+  },
+  {
+    "word": "none",
+    "count": 4556
+  },
+  {
+    "word": "family",
+    "count": 4550
+  },
+  {
+    "word": "html",
+    "count": 4549
+  },
+  {
+    "word": "px",
+    "count": 4541
+  },
+  {
+    "word": "style",
+    "count": 4535
+  },
+  {
+    "word": "Command",
+    "count": 4527
+  },
+  {
+    "word": "value",
+    "count": 4520
+  },
+  {
+    "word": "what",
+    "count": 4519
+  },
+  {
+    "word": "background",
+    "count": 4514
+  },
+  {
+    "word": "size",
+    "count": 4509
+  },
+  {
+    "word": "border",
+    "count": 4499
+  },
+  {
+    "word": "padding",
+    "count": 4489
+  },
+  {
+    "word": "parse",
+    "count": 4489
+  },
+  {
+    "word": "sans",
+    "count": 4488
+  },
+  {
+    "word": "pt",
+    "count": 4487
+  },
+  {
+    "word": "cursor",
+    "count": 4485
+  },
+  {
+    "word": "Helvetica",
+    "count": 4485
+  },
+  {
+    "word": "Verdana",
+    "count": 4485
+  },
+  {
+    "word": "pointer",
+    "count": 4484
+  },
+  {
+    "word": "serif",
+    "count": 4484
+  },
+  {
+    "word": "Arial",
+    "count": 4484
+  },
+  {
+    "word": "but",
+    "count": 4456
+  },
+  {
+    "word": "4",
+    "count": 4431
+  },
+  {
+    "word": "be",
+    "count": 4319
+  },
+  {
+    "word": "he",
+    "count": 4263
+  },
+  {
+    "word": "game",
+    "count": 4206
+  },
+  {
+    "word": "get",
+    "count": 4071
+  },
+  {
+    "word": "all",
+    "count": 4058
+  },
+  {
+    "word": "has",
+    "count": 3957
+  },
+  {
+    "word": "if",
+    "count": 3957
+  },
+  {
+    "word": "im",
+    "count": 3864
+  },
+  {
+    "word": "join",
+    "count": 3813
+  },
+  {
+    "word": "g",
+    "count": 3635
+  },
+  {
+    "word": "up",
+    "count": 3630
+  },
+  {
+    "word": "xaa",
+    "count": 3558
+  },
+  {
+    "word": "gg",
+    "count": 3543
+  },
+  {
+    "word": "D",
+    "count": 3481
+  },
+  {
+    "word": "m",
+    "count": 3446
+  },
+  {
+    "word": "battle",
+    "count": 3149
+  },
+  {
+    "word": "need",
+    "count": 3108
+  },
+  {
+    "word": "your",
+    "count": 3056
+  },
+  {
+    "word": "6",
+    "count": 3047
+  },
+  {
+    "word": "got",
+    "count": 3036
+  },
+  {
+    "word": "its",
+    "count": 2970
+  },
+  {
+    "word": "one",
+    "count": 2964
+  },
+  {
+    "word": "Welcome",
+    "count": 2915
+  },
+  {
+    "word": "v",
+    "count": 2849
+  },
+  {
+    "word": "hit",
+    "count": 2812
+  },
+  {
+    "word": "ok",
+    "count": 2757
+  },
+  {
+    "word": "oh",
+    "count": 2673
+  },
+  {
+    "word": "Your",
+    "count": 2629
+  },
+  {
+    "word": "hand",
+    "count": 2576
+  },
+  {
+    "word": "go",
+    "count": 2570
+  },
+  {
+    "word": "total",
+    "count": 2560
+  },
+  {
+    "word": "o",
+    "count": 2554
+  },
+  {
+    "word": "A",
+    "count": 2541
+  },
+  {
+    "word": "know",
+    "count": 2532
+  },
+  {
+    "word": "now",
+    "count": 2509
+  },
+  {
+    "word": "how",
+    "count": 2449
+  },
+  {
+    "word": "team",
+    "count": 2431
+  },
+  {
+    "word": "fun",
+    "count": 2418
+  },
+  {
+    "word": "new",
+    "count": 2410
+  },
+  {
+    "word": "League",
+    "count": 2393
+  },
+  {
+    "word": "stay",
+    "count": 2369
+  },
+  {
+    "word": "did",
+    "count": 2363
+  },
+  {
+    "word": "try",
+    "count": 2357
+  },
+  {
+    "word": "x",
+    "count": 2328
+  },
+  {
+    "word": "dont",
+    "count": 2327
+  },
+  {
+    "word": "Lotus",
+    "count": 2322
+  },
+  {
+    "word": "https",
+    "count": 2312
+  },
+  {
+    "word": "why",
+    "count": 2299
+  },
+  {
+    "word": "good",
+    "count": 2297
+  },
+  {
+    "word": "yeah",
+    "count": 2284
+  },
+  {
+    "word": "O",
+    "count": 2265
+  },
+  {
+    "word": "would",
+    "count": 2261
+  },
+  {
+    "word": "out",
+    "count": 2250
+  },
+  {
+    "word": "watch",
+    "count": 2219
+  },
+  {
+    "word": "at",
+    "count": 2209
+  },
+  {
+    "word": "Card",
+    "count": 2121
+  },
+  {
+    "word": "Top",
+    "count": 2114
+  },
+  {
+    "word": "then",
+    "count": 2076
+  },
+  {
+    "word": "when",
+    "count": 2055
+  },
+  {
+    "word": "n",
+    "count": 2049
+  },
+  {
+    "word": "www",
+    "count": 2039
+  },
+  {
+    "word": "want",
+    "count": 2039
+  },
+  {
+    "word": "feelsgd",
+    "count": 2029
+  },
+  {
+    "word": "time",
+    "count": 2003
+  },
+  {
+    "word": "youtube",
+    "count": 1993
+  },
+  {
+    "word": "8",
+    "count": 1980
+  },
+  {
+    "word": "You",
+    "count": 1963
+  },
+  {
+    "word": "about",
+    "count": 1939
+  },
+  {
+    "word": "playing",
+    "count": 1938
+  },
+  {
+    "word": "test",
+    "count": 1926
+  },
+  {
+    "word": "7",
+    "count": 1889
+  },
+  {
+    "word": "they",
+    "count": 1886
+  },
+  {
+    "word": "as",
+    "count": 1865
+  },
+  {
+    "word": "think",
+    "count": 1864
+  },
+  {
+    "word": "well",
+    "count": 1849
+  },
+  {
+    "word": "Song",
+    "count": 1845
+  },
+  {
+    "word": "will",
+    "count": 1837
+  },
+  {
+    "word": "18",
+    "count": 1808
+  },
+  {
+    "word": "here",
+    "count": 1794
+  },
+  {
+    "word": "tours",
+    "count": 1786
+  },
+  {
+    "word": "don",
+    "count": 1774
+  },
+  {
+    "word": "there",
+    "count": 1770
+  },
+  {
+    "word": "only",
+    "count": 1764
+  },
+  {
+    "word": "DO",
+    "count": 1751
+  },
+  {
+    "word": "right",
+    "count": 1749
+  },
+  {
+    "word": "too",
+    "count": 1740
+  },
+  {
+    "word": "more",
+    "count": 1733
+  },
+  {
+    "word": "YOUR",
+    "count": 1715
+  },
+  {
+    "word": "♥",
+    "count": 1709
+  },
+  {
+    "word": "use",
+    "count": 1702
+  },
+  {
+    "word": "him",
+    "count": 1701
+  },
+  {
+    "word": "turn",
+    "count": 1687
+  },
+  {
+    "word": "♣",
+    "count": 1664
+  },
+  {
+    "word": "Here",
+    "count": 1661
+  },
+  {
+    "word": "Fm",
+    "count": 1643
+  },
+  {
+    "word": "Day",
+    "count": 1641
+  },
+  {
+    "word": "greatest",
+    "count": 1640
+  },
+  {
+    "word": "feelsnv",
+    "count": 1635
+  },
+  {
+    "word": "Wb",
+    "count": 1634
+  },
+  {
+    "word": "LBA",
+    "count": 1633
+  },
+  {
+    "word": "answer",
+    "count": 1632
+  },
+  {
+    "word": "BATTLES",
+    "count": 1630
+  },
+  {
+    "word": "Gc",
+    "count": 1630
+  },
+  {
+    "word": "Cx",
+    "count": 1629
+  },
+  {
+    "word": "Bqi",
+    "count": 1629
+  },
+  {
+    "word": "DJ",
+    "count": 1619
+  },
+  {
+    "word": "who",
+    "count": 1615
+  },
+  {
+    "word": "♦",
+    "count": 1614
+  },
+  {
+    "word": "see",
+    "count": 1602
+  },
+  {
+    "word": "♠",
+    "count": 1599
+  },
+  {
+    "word": "d",
+    "count": 1574
+  },
+  {
+    "word": "an",
+    "count": 1564
+  },
+  {
+    "word": "e",
+    "count": 1562
+  },
+  {
+    "word": "am",
+    "count": 1561
+  },
+  {
+    "word": "re",
+    "count": 1560
+  },
+  {
+    "word": "make",
+    "count": 1551
+  },
+  {
+    "word": "Dealer",
+    "count": 1539
+  },
+  {
+    "word": "bad",
+    "count": 1518
+  },
+  {
+    "word": "k",
+    "count": 1507
+  },
+  {
+    "word": "LOL",
+    "count": 1480
+  },
+  {
+    "word": "ur",
+    "count": 1478
+  },
+  {
+    "word": "from",
+    "count": 1472
+  },
+  {
+    "word": "B",
+    "count": 1461
+  },
+  {
+    "word": "back",
+    "count": 1457
+  },
+  {
+    "word": "still",
+    "count": 1440
+  },
+  {
+    "word": "even",
+    "count": 1436
+  },
+  {
+    "word": "V",
+    "count": 1436
+  },
+  {
+    "word": "E",
+    "count": 1435
+  },
+  {
+    "word": "L",
+    "count": 1420
+  },
+  {
+    "word": "Thank",
+    "count": 1416
+  },
+  {
+    "word": "hi",
+    "count": 1416
+  },
+  {
+    "word": "league",
+    "count": 1403
+  },
+  {
+    "word": "10",
+    "count": 1400
+  },
+  {
+    "word": "U",
+    "count": 1384
+  },
+  {
+    "word": "people",
+    "count": 1356
+  },
+  {
+    "word": "rip",
+    "count": 1324
+  },
+  {
+    "word": "Question",
+    "count": 1323
+  },
+  {
+    "word": "shit",
+    "count": 1319
+  },
+  {
+    "word": "had",
+    "count": 1314
+  },
+  {
+    "word": "signing",
+    "count": 1304
+  },
+  {
+    "word": "What",
+    "count": 1295
+  },
+  {
+    "word": "start",
+    "count": 1291
+  },
+  {
+    "word": "ll",
+    "count": 1291
+  },
+  {
+    "word": "should",
+    "count": 1273
+  },
+  {
+    "word": "really",
+    "count": 1264
+  },
+  {
+    "word": "room",
+    "count": 1264
+  },
+  {
+    "word": "feelsbd",
+    "count": 1252
+  },
+  {
+    "word": "C",
+    "count": 1236
+  },
+  {
+    "word": "tho",
+    "count": 1235
+  },
+  {
+    "word": "say",
+    "count": 1232
+  },
+  {
+    "word": "mean",
+    "count": 1222
+  },
+  {
+    "word": "gonna",
+    "count": 1220
+  },
+  {
+    "word": "bj",
+    "count": 1206
+  },
+  {
+    "word": "★",
+    "count": 1196
+  },
+  {
+    "word": "been",
+    "count": 1192
+  },
+  {
+    "word": "Mewth",
+    "count": 1186
+  },
+  {
+    "word": "wait",
+    "count": 1184
+  },
+  {
+    "word": "points",
+    "count": 1183
+  },
+  {
+    "word": "his",
+    "count": 1182
+  },
+  {
+    "word": "them",
+    "count": 1161
+  },
+  {
+    "word": "by",
+    "count": 1160
+  },
+  {
+    "word": "some",
+    "count": 1151
+  },
+  {
+    "word": "lmao",
+    "count": 1139
+  },
+  {
+    "word": "oshet",
+    "count": 1138
+  },
+  {
+    "word": "XD",
+    "count": 1135
+  },
+  {
+    "word": "Av",
+    "count": 1130
+  },
+  {
+    "word": "thats",
+    "count": 1128
+  },
+  {
+    "word": "728",
+    "count": 1127
+  },
+  {
+    "word": "gl",
+    "count": 1125
+  },
+  {
+    "word": "It",
+    "count": 1121
+  },
+  {
+    "word": "yes",
+    "count": 1107
+  },
+  {
+    "word": "hey",
+    "count": 1102
+  },
+  {
+    "word": "idk",
+    "count": 1097
+  },
+  {
+    "word": "nice",
+    "count": 1088
+  },
+  {
+    "word": "going",
+    "count": 1083
+  },
+  {
+    "word": "If",
+    "count": 1068
+  },
+  {
+    "word": "12",
+    "count": 1067
+  },
+  {
+    "word": "because",
+    "count": 1062
+  },
+  {
+    "word": "said",
+    "count": 1060
+  },
+  {
+    "word": "us",
+    "count": 1058
+  },
+  {
+    "word": "sure",
+    "count": 1054
+  },
+  {
+    "word": "our",
+    "count": 1027
+  },
+  {
+    "word": "fuck",
+    "count": 1023
+  },
+  {
+    "word": "cant",
+    "count": 1009
+  },
+  {
+    "word": "tbh",
+    "count": 1008
+  },
+  {
+    "word": "correct",
+    "count": 1005
+  },
+  {
+    "word": "type",
+    "count": 1001
+  },
+  {
+    "word": "does",
+    "count": 981
+  },
+  {
+    "word": "Lol",
+    "count": 978
+  },
+  {
+    "word": "much",
+    "count": 970
+  },
+  {
+    "word": "ladder",
+    "count": 962
+  },
+  {
+    "word": "pm",
+    "count": 958
+  },
+  {
+    "word": "something",
+    "count": 941
+  },
+  {
+    "word": "feelspuke",
+    "count": 940
+  },
+  {
+    "word": "wanna",
+    "count": 939
+  },
+  {
+    "word": "same",
+    "count": 937
+  },
+  {
+    "word": "Qb",
+    "count": 931
+  },
+  {
+    "word": "J",
+    "count": 924
+  },
+  {
+    "word": "could",
+    "count": 919
+  },
+  {
+    "word": "were",
+    "count": 915
+  },
+  {
+    "word": "play",
+    "count": 910
+  },
+  {
+    "word": "feelscri",
+    "count": 908
+  },
+  {
+    "word": "again",
+    "count": 904
+  },
+  {
+    "word": "P",
+    "count": 904
+  },
+  {
+    "word": "leader",
+    "count": 902
+  },
+  {
+    "word": "blackjack",
+    "count": 897
+  },
+  {
+    "word": "other",
+    "count": 894
+  },
+  {
+    "word": "top",
+    "count": 894
+  },
+  {
+    "word": "guys",
+    "count": 893
+  },
+  {
+    "word": "win",
+    "count": 889
+  },
+  {
+    "word": "r",
+    "count": 885
+  },
+  {
+    "word": "thing",
+    "count": 884
+  },
+  {
+    "word": "Pokemon",
+    "count": 882
+  },
+  {
+    "word": "best",
+    "count": 881
+  },
+  {
+    "word": "w",
+    "count": 881
+  },
+  {
+    "word": "Rsp",
+    "count": 875
+  },
+  {
+    "word": "starting",
+    "count": 875
+  },
+  {
+    "word": "first",
+    "count": 866
+  },
+  {
+    "word": "Oh",
+    "count": 864
+  },
+  {
+    "word": "she",
+    "count": 864
+  },
+  {
+    "word": "sorry",
+    "count": 863
+  },
+  {
+    "word": "pokemon",
+    "count": 856
+  },
+  {
+    "word": "better",
+    "count": 855
+  },
+  {
+    "word": "give",
+    "count": 854
+  },
+  {
+    "word": "So",
+    "count": 853
+  },
+  {
+    "word": "Crystal",
+    "count": 839
+  },
+  {
+    "word": "tier",
+    "count": 838
+  },
+  {
+    "word": "ill",
+    "count": 835
+  },
+  {
+    "word": "Void",
+    "count": 829
+  },
+  {
+    "word": "No",
+    "count": 825
+  },
+  {
+    "word": "never",
+    "count": 821
+  },
+  {
+    "word": "20",
+    "count": 814
+  },
+  {
+    "word": "knife",
+    "count": 813
+  },
+  {
+    "word": "didnt",
+    "count": 811
+  },
+  {
+    "word": "trainer",
+    "count": 810
+  },
+  {
+    "word": "squat",
+    "count": 809
+  },
+  {
+    "word": "HAPPY",
+    "count": 809
+  },
+  {
+    "word": "vividi",
+    "count": 808
+  },
+  {
+    "word": "BIRTHDAY",
+    "count": 807
+  },
+  {
+    "word": "someone",
+    "count": 807
+  },
+  {
+    "word": "actually",
+    "count": 805
+  },
+  {
+    "word": "SKRUBLORD",
+    "count": 804
+  },
+  {
+    "word": "after",
+    "count": 799
+  },
+  {
+    "word": "until",
+    "count": 793
+  },
+  {
+    "word": "p",
+    "count": 788
+  },
+  {
+    "word": "take",
+    "count": 779
+  },
+  {
+    "word": "help",
+    "count": 779
+  },
+  {
+    "word": "winners",
+    "count": 777
+  },
+  {
+    "word": "ve",
+    "count": 774
+  },
+  {
+    "word": "Storm",
+    "count": 772
+  },
+  {
+    "word": "off",
+    "count": 768
+  },
+  {
+    "word": "mega",
+    "count": 751
+  },
+  {
+    "word": "nah",
+    "count": 744
+  },
+  {
+    "word": "her",
+    "count": 742
+  },
+  {
+    "word": "tour",
+    "count": 741
+  },
+  {
+    "word": "yea",
+    "count": 740
+  },
+  {
+    "word": "point",
+    "count": 739
+  },
+  {
+    "word": "also",
+    "count": 734
+  },
+  {
+    "word": "tell",
+    "count": 732
+  },
+  {
+    "word": "monotype",
+    "count": 728
+  },
+  {
+    "word": "fire",
+    "count": 722
+  },
+  {
+    "word": "To",
+    "count": 722
+  },
+  {
+    "word": "every",
+    "count": 721
+  },
+  {
+    "word": "feelsjig",
+    "count": 720
+  },
+  {
+    "word": "guess",
+    "count": 719
+  },
+  {
+    "word": "any",
+    "count": 713
+  },
+  {
+    "word": "stop",
+    "count": 711
+  },
+  {
+    "word": "won",
+    "count": 711
+  },
+  {
+    "word": "though",
+    "count": 710
+  },
+  {
+    "word": "day",
+    "count": 708
+  },
+  {
+    "word": "bucks",
+    "count": 707
+  },
+  {
+    "word": "than",
+    "count": 698
+  },
+  {
+    "word": "Night",
+    "count": 694
+  },
+  {
+    "word": "l",
+    "count": 693
+  },
+  {
+    "word": "didn",
+    "count": 686
+  },
+  {
+    "word": "being",
+    "count": 682
+  },
+  {
+    "word": "frontier",
+    "count": 671
+  },
+  {
+    "word": "made",
+    "count": 670
+  },
+  {
+    "word": "y",
+    "count": 670
+  },
+  {
+    "word": "crystal",
+    "count": 666
+  },
+  {
+    "word": "And",
+    "count": 665
+  },
+  {
+    "word": "already",
+    "count": 664
+  },
+  {
+    "word": "Im",
+    "count": 663
+  },
+  {
+    "word": "c",
+    "count": 663
+  },
+  {
+    "word": "Join",
+    "count": 661
+  },
+  {
+    "word": "origin",
+    "count": 657
+  },
+  {
+    "word": "weebly",
+    "count": 656
+  },
+  {
+    "word": "f",
+    "count": 654
+  },
+  {
+    "word": "But",
+    "count": 652
+  },
+  {
+    "word": "That",
+    "count": 647
+  },
+  {
+    "word": "cool",
+    "count": 645
+  },
+  {
+    "word": "love",
+    "count": 645
+  },
+  {
+    "word": "banned",
+    "count": 639
+  },
+  {
+    "word": "500",
+    "count": 639
+  },
+  {
+    "word": "djleague",
+    "count": 638
+  },
+  {
+    "word": "fucking",
+    "count": 637
+  },
+  {
+    "word": "let",
+    "count": 632
+  },
+  {
+    "word": "into",
+    "count": 630
+  },
+  {
+    "word": "main",
+    "count": 624
+  },
+  {
+    "word": "X",
+    "count": 620
+  },
+  {
+    "word": "Yeah",
+    "count": 619
+  },
+  {
+    "word": "doing",
+    "count": 618
+  },
+  {
+    "word": "using",
+    "count": 615
+  },
+  {
+    "word": "thanks",
+    "count": 615
+  },
+  {
+    "word": "ya",
+    "count": 613
+  },
+  {
+    "word": "ass",
+    "count": 612
+  },
+  {
+    "word": "way",
+    "count": 611
+  },
+  {
+    "word": "getting",
+    "count": 606
+  },
+  {
+    "word": "done",
+    "count": 600
+  },
+  {
+    "word": "feelsok",
+    "count": 599
+  },
+  {
+    "word": "Kappa",
+    "count": 599
+  },
+  {
+    "word": "Hi",
+    "count": 597
+  },
+  {
+    "word": "F",
+    "count": 593
+  },
+  {
+    "word": "since",
+    "count": 591
+  },
+  {
+    "word": "reborn",
+    "count": 590
+  },
+  {
+    "word": "beat",
+    "count": 590
+  },
+  {
+    "word": "jpg",
+    "count": 589
+  },
+  {
+    "word": "next",
+    "count": 587
+  },
+  {
+    "word": "Family",
+    "count": 587
+  },
+  {
+    "word": "respective",
+    "count": 587
+  },
+  {
+    "word": "last",
+    "count": 587
+  },
+  {
+    "word": "move",
+    "count": 584
+  },
+  {
+    "word": "set",
+    "count": 583
+  },
+  {
+    "word": "used",
+    "count": 578
+  },
+  {
+    "word": "anything",
+    "count": 577
+  },
+  {
+    "word": "mono",
+    "count": 577
+  },
+  {
+    "word": "over",
+    "count": 573
+  },
+  {
+    "word": "thought",
+    "count": 571
+  },
+  {
+    "word": "teams",
+    "count": 569
+  },
+  {
+    "word": "where",
+    "count": 566
+  },
+  {
+    "word": "Na",
+    "count": 563
+  },
+  {
+    "word": "long",
+    "count": 563
+  },
+  {
+    "word": "pastebin",
+    "count": 560
+  },
+  {
+    "word": "wtf",
+    "count": 556
+  },
+  {
+    "word": "work",
+    "count": 555
+  },
+  {
+    "word": "before",
+    "count": 555
+  },
+  {
+    "word": "Hey",
+    "count": 555
+  },
+  {
+    "word": "Dayton",
+    "count": 552
+  },
+  {
+    "word": "Sorry",
+    "count": 552
+  },
+  {
+    "word": "PM",
+    "count": 552
+  },
+  {
+    "word": "look",
+    "count": 552
+  },
+  {
+    "word": "hayleysden",
+    "count": 550
+  },
+  {
+    "word": "alt",
+    "count": 550
+  },
+  {
+    "word": "might",
+    "count": 546
+  },
+  {
+    "word": "2015",
+    "count": 546
+  },
+  {
+    "word": "yo",
+    "count": 545
+  },
+  {
+    "word": "change",
+    "count": 544
+  },
+  {
+    "word": "Id",
+    "count": 544
+  },
+  {
+    "word": "Shinigami",
+    "count": 543
+  },
+  {
+    "word": "please",
+    "count": 543
+  },
+  {
+    "word": "anyone",
+    "count": 543
+  },
+  {
+    "word": "ik",
+    "count": 542
+  },
+  {
+    "word": "man",
+    "count": 542
+  },
+  {
+    "word": "come",
+    "count": 542
+  },
+  {
+    "word": "He",
+    "count": 539
+  },
+  {
+    "word": "Cl",
+    "count": 537
+  },
+  {
+    "word": "19",
+    "count": 533
+  },
+  {
+    "word": "17",
+    "count": 532
+  },
+  {
+    "word": "XF",
+    "count": 530
+  },
+  {
+    "word": "false",
+    "count": 529
+  },
+  {
+    "word": "Itsme",
+    "count": 528
+  },
+  {
+    "word": "lost",
+    "count": 525
+  },
+  {
+    "word": "feelsgn",
+    "count": 525
+  },
+  {
+    "word": "which",
+    "count": 525
+  },
+  {
+    "word": "talk",
+    "count": 525
+  },
+  {
+    "word": "This",
+    "count": 521
+  },
+  {
+    "word": "imo",
+    "count": 518
+  },
+  {
+    "word": "hf",
+    "count": 517
+  },
+  {
+    "word": "maybe",
+    "count": 514
+  },
+  {
+    "word": "everyone",
+    "count": 511
+  },
+  {
+    "word": "smh",
+    "count": 509
+  },
+  {
+    "word": "rn",
+    "count": 509
+  },
+  {
+    "word": "damn",
+    "count": 509
+  },
+  {
+    "word": "pretty",
+    "count": 508
+  },
+  {
+    "word": "h",
+    "count": 508
+  },
+  {
+    "word": "ask",
+    "count": 504
+  },
+  {
+    "word": "fine",
+    "count": 504
+  },
+  {
+    "word": "16",
+    "count": 502
+  },
+  {
+    "word": "down",
+    "count": 501
+  },
+  {
+    "word": "ice",
+    "count": 499
+  },
+  {
+    "word": "another",
+    "count": 499
+  },
+  {
+    "word": "cuz",
+    "count": 499
+  },
+  {
+    "word": "pass",
+    "count": 491
+  },
+  {
+    "word": "dark",
+    "count": 491
+  },
+  {
+    "word": "okay",
+    "count": 490
+  },
+  {
+    "word": "15",
+    "count": 487
+  },
+  {
+    "word": "server",
+    "count": 486
+  },
+  {
+    "word": "Le",
+    "count": 485
+  },
+  {
+    "word": "vs",
+    "count": 485
+  },
+  {
+    "word": "Omega",
+    "count": 484
+  },
+  {
+    "word": "Hump",
+    "count": 479
+  },
+  {
+    "word": "real",
+    "count": 479
+  },
+  {
+    "word": "hes",
+    "count": 476
+  },
+  {
+    "word": "q",
+    "count": 475
+  },
+  {
+    "word": "wow",
+    "count": 475
+  },
+  {
+    "word": "Phoenix",
+    "count": 475
+  },
+  {
+    "word": "yet",
+    "count": 475
+  },
+  {
+    "word": "probably",
+    "count": 474
+  },
+  {
+    "word": "doesn",
+    "count": 472
+  },
+  {
+    "word": "told",
+    "count": 471
+  },
+  {
+    "word": "cause",
+    "count": 468
+  },
+  {
+    "word": "feel",
+    "count": 467
+  },
+  {
+    "word": "always",
+    "count": 467
+  },
+  {
+    "word": "Sciz",
+    "count": 465
+  },
+  {
+    "word": "14",
+    "count": 464
+  },
+  {
+    "word": "Mighty",
+    "count": 463
+  },
+  {
+    "word": "fighting",
+    "count": 462
+  },
+  {
+    "word": "feelsmd",
+    "count": 461
+  },
+  {
+    "word": "hate",
+    "count": 461
+  },
+  {
+    "word": "run",
+    "count": 460
+  },
+  {
+    "word": "many",
+    "count": 460
+  },
+  {
+    "word": "chill",
+    "count": 460
+  },
+  {
+    "word": "Emg",
+    "count": 458
+  },
+  {
+    "word": "god",
+    "count": 458
+  },
+  {
+    "word": "13",
+    "count": 457
+  },
+  {
+    "word": "How",
+    "count": 456
+  },
+  {
+    "word": "00",
+    "count": 455
+  },
+  {
+    "word": "scarf",
+    "count": 452
+  },
+  {
+    "word": "ah",
+    "count": 452
+  },
+  {
+    "word": "23",
+    "count": 452
+  },
+  {
+    "word": "GL",
+    "count": 451
+  },
+  {
+    "word": "Rewards",
+    "count": 446
+  },
+  {
+    "word": "guy",
+    "count": 446
+  },
+  {
+    "word": "lose",
+    "count": 446
+  },
+  {
+    "word": "hope",
+    "count": 444
+  },
+  {
+    "word": "We",
+    "count": 443
+  },
+  {
+    "word": "water",
+    "count": 443
+  },
+  {
+    "word": "z",
+    "count": 441
+  },
+  {
+    "word": "doesnt",
+    "count": 440
+  },
+  {
+    "word": "foh",
+    "count": 437
+  },
+  {
+    "word": "feelsdd",
+    "count": 437
+  },
+  {
+    "word": "22",
+    "count": 437
+  },
+  {
+    "word": "kk",
+    "count": 436
+  },
+  {
+    "word": "kill",
+    "count": 435
+  },
+  {
+    "word": "put",
+    "count": 434
+  },
+  {
+    "word": "card",
+    "count": 432
+  },
+  {
+    "word": "Why",
+    "count": 432
+  },
+  {
+    "word": "remember",
+    "count": 430
+  },
+  {
+    "word": "hmm",
+    "count": 428
+  },
+  {
+    "word": "true",
+    "count": 428
+  },
+  {
+    "word": "Z",
+    "count": 424
+  },
+  {
+    "word": "nothing",
+    "count": 422
+  },
+  {
+    "word": "lotusevents",
+    "count": 420
+  },
+  {
+    "word": "Well",
+    "count": 420
+  },
+  {
+    "word": "nigga",
+    "count": 418
+  },
+  {
+    "word": "30",
+    "count": 418
+  },
+  {
+    "word": "ever",
+    "count": 415
+  },
+  {
+    "word": "trying",
+    "count": 415
+  },
+  {
+    "word": "YOU",
+    "count": 414
+  },
+  {
+    "word": "gets",
+    "count": 411
+  },
+  {
+    "word": "else",
+    "count": 410
+  },
+  {
+    "word": "life",
+    "count": 409
+  },
+  {
+    "word": "btw",
+    "count": 408
+  },
+  {
+    "word": "keep",
+    "count": 408
+  },
+  {
+    "word": "BL",
+    "count": 406
+  },
+  {
+    "word": "wanted",
+    "count": 405
+  },
+  {
+    "word": "staff",
+    "count": 402
+  },
+  {
+    "word": "those",
+    "count": 401
+  },
+  {
+    "word": "Doge",
+    "count": 401
+  },
+  {
+    "word": "ye",
+    "count": 400
+  },
+  {
+    "word": "most",
+    "count": 399
+  },
+  {
+    "word": "things",
+    "count": 399
+  },
+  {
+    "word": "challenge",
+    "count": 398
+  },
+  {
+    "word": "wrong",
+    "count": 397
+  },
+  {
+    "word": "Pokémon",
+    "count": 396
+  },
+  {
+    "word": "whats",
+    "count": 396
+  },
+  {
+    "word": "both",
+    "count": 395
+  },
+  {
+    "word": "Jf",
+    "count": 394
+  },
+  {
+    "word": "wont",
+    "count": 394
+  },
+  {
+    "word": "speed",
+    "count": 392
+  },
+  {
+    "word": "cards",
+    "count": 392
+  },
+  {
+    "word": "busted",
+    "count": 391
+  },
+  {
+    "word": "talking",
+    "count": 391
+  },
+  {
+    "word": "THE",
+    "count": 388
+  },
+  {
+    "word": "My",
+    "count": 387
+  },
+  {
+    "word": "hard",
+    "count": 387
+  },
+  {
+    "word": "isnt",
+    "count": 387
+  },
+  {
+    "word": "luck",
+    "count": 385
+  },
+  {
+    "word": "Come",
+    "count": 383
+  },
+  {
+    "word": "around",
+    "count": 382
+  },
+  {
+    "word": "their",
+    "count": 381
+  },
+  {
+    "word": "rock",
+    "count": 381
+  },
+  {
+    "word": "Can",
+    "count": 380
+  },
+  {
+    "word": "Not",
+    "count": 380
+  },
+  {
+    "word": "Squad",
+    "count": 379
+  },
+  {
+    "word": "isn",
+    "count": 379
+  },
+  {
+    "word": "against",
+    "count": 378
+  },
+  {
+    "word": "lot",
+    "count": 378
+  },
+  {
+    "word": "meme",
+    "count": 377
+  },
+  {
+    "word": "bit",
+    "count": 377
+  },
+  {
+    "word": "find",
+    "count": 377
+  },
+  {
+    "word": "ou",
+    "count": 374
+  },
+  {
+    "word": "left",
+    "count": 373
+  },
+  {
+    "word": "crit",
+    "count": 372
+  },
+  {
+    "word": "HV",
+    "count": 370
+  },
+  {
+    "word": "ty",
+    "count": 370
+  },
+  {
+    "word": "ez",
+    "count": 366
+  },
+  {
+    "word": "normal",
+    "count": 365
+  },
+  {
+    "word": "glhf",
+    "count": 365
+  },
+  {
+    "word": "power",
+    "count": 365
+  },
+  {
+    "word": "leave",
+    "count": 363
+  },
+  {
+    "word": "Or",
+    "count": 362
+  },
+  {
+    "word": "ban",
+    "count": 362
+  },
+  {
+    "word": "ready",
+    "count": 361
+  },
+  {
+    "word": "Jando",
+    "count": 360
+  },
+  {
+    "word": "kinda",
+    "count": 360
+  },
+  {
+    "word": "G",
+    "count": 358
+  },
+  {
+    "word": "today",
+    "count": 358
+  },
+  {
+    "word": "steel",
+    "count": 357
+  },
+  {
+    "word": "away",
+    "count": 356
+  },
+  {
+    "word": "friend",
+    "count": 356
+  },
+  {
+    "word": "Hello",
+    "count": 355
+  },
+  {
+    "word": "stuff",
+    "count": 354
+  },
+  {
+    "word": "Ok",
+    "count": 351
+  },
+  {
+    "word": "psim",
+    "count": 350
+  },
+  {
+    "word": "forgot",
+    "count": 349
+  },
+  {
+    "word": "details",
+    "count": 348
+  },
+  {
+    "word": "old",
+    "count": 348
+  },
+  {
+    "word": "Saturday",
+    "count": 346
+  },
+  {
+    "word": "gotta",
+    "count": 344
+  },
+  {
+    "word": "Hayleysworld",
+    "count": 344
+  },
+  {
+    "word": "ghost",
+    "count": 344
+  },
+  {
+    "word": "S",
+    "count": 344
+  },
+  {
+    "word": "person",
+    "count": 343
+  },
+  {
+    "word": "call",
+    "count": 342
+  },
+  {
+    "word": "Yy",
+    "count": 342
+  },
+  {
+    "word": "Edmw",
+    "count": 341
+  },
+  {
+    "word": "mons",
+    "count": 340
+  },
+  {
+    "word": "Q",
+    "count": 338
+  },
+  {
+    "word": "these",
+    "count": 338
+  },
+  {
+    "word": "lotus",
+    "count": 337
+  },
+  {
+    "word": "nope",
+    "count": 337
+  },
+  {
+    "word": "dragon",
+    "count": 337
+  },
+  {
+    "word": "lets",
+    "count": 337
+  },
+  {
+    "word": "check",
+    "count": 336
+  },
+  {
+    "word": "alright",
+    "count": 336
+  },
+  {
+    "word": "NO",
+    "count": 335
+  },
+  {
+    "word": "poison",
+    "count": 334
+  },
+  {
+    "word": "nvm",
+    "count": 333
+  },
+  {
+    "word": "Groovy",
+    "count": 329
+  },
+  {
+    "word": "Disco",
+    "count": 329
+  },
+  {
+    "word": "Leaguers",
+    "count": 329
+  },
+  {
+    "word": "happened",
+    "count": 329
+  },
+  {
+    "word": "two",
+    "count": 328
+  },
+  {
+    "word": "enough",
+    "count": 327
+  },
+  {
+    "word": "25",
+    "count": 327
+  },
+  {
+    "word": "haha",
+    "count": 325
+  },
+  {
+    "word": "add",
+    "count": 324
+  },
+  {
+    "word": "badge",
+    "count": 324
+  },
+  {
+    "word": "Yes",
+    "count": 323
+  },
+  {
+    "word": "GXE",
+    "count": 323
+  },
+  {
+    "word": "hax",
+    "count": 322
+  },
+  {
+    "word": "very",
+    "count": 322
+  },
+  {
+    "word": "literally",
+    "count": 321
+  },
+  {
+    "word": "once",
+    "count": 321
+  },
+  {
+    "word": "while",
+    "count": 319
+  },
+  {
+    "word": "Mega",
+    "count": 318
+  },
+  {
+    "word": "miss",
+    "count": 317
+  },
+  {
+    "word": "reason",
+    "count": 316
+  },
+  {
+    "word": "saying",
+    "count": 316
+  },
+  {
+    "word": "mon",
+    "count": 316
+  },
+  {
+    "word": "M",
+    "count": 315
+  },
+  {
+    "word": "skype",
+    "count": 315
+  },
+  {
+    "word": "feelsbn",
+    "count": 314
+  },
+  {
+    "word": "pls",
+    "count": 310
+  },
+  {
+    "word": "google",
+    "count": 310
+  },
+  {
+    "word": "rank",
+    "count": 309
+  },
+  {
+    "word": "storm",
+    "count": 308
+  },
+  {
+    "word": "Its",
+    "count": 307
+  },
+  {
+    "word": "Piscean",
+    "count": 305
+  },
+  {
+    "word": "wants",
+    "count": 305
+  },
+  {
+    "word": "seen",
+    "count": 303
+  },
+  {
+    "word": "hmmface",
+    "count": 303
+  },
+  {
+    "word": "ability",
+    "count": 301
+  },
+  {
+    "word": "dude",
+    "count": 301
+  },
+  {
+    "word": "everything",
+    "count": 300
+  },
+  {
+    "word": "T",
+    "count": 299
+  },
+  {
+    "word": "command",
+    "count": 298
+  },
+  {
+    "word": "lel",
+    "count": 298
+  },
+  {
+    "word": "11",
+    "count": 298
+  },
+  {
+    "word": "feelslelouch",
+    "count": 297
+  },
+  {
+    "word": "ago",
+    "count": 297
+  },
+  {
+    "word": "24",
+    "count": 297
+  },
+  {
+    "word": "switch",
+    "count": 294
+  },
+  {
+    "word": "vote",
+    "count": 294
+  },
+  {
+    "word": "feelsfloat",
+    "count": 293
+  },
+  {
+    "word": "least",
+    "count": 292
+  },
+  {
+    "word": "atm",
+    "count": 292
+  },
+  {
+    "word": "Odd",
+    "count": 291
+  },
+  {
+    "word": "prof",
+    "count": 291
+  },
+  {
+    "word": "went",
+    "count": 291
+  },
+  {
+    "word": "21",
+    "count": 290
+  },
+  {
+    "word": "Just",
+    "count": 289
+  },
+  {
+    "word": "bye",
+    "count": 289
+  },
+  {
+    "word": "either",
+    "count": 289
+  },
+  {
+    "word": "week",
+    "count": 289
+  },
+  {
+    "word": "fairy",
+    "count": 289
+  },
+  {
+    "word": "Who",
+    "count": 288
+  },
+  {
+    "word": "bug",
+    "count": 287
+  },
+  {
+    "word": "mhm",
+    "count": 287
+  },
+  {
+    "word": "R",
+    "count": 286
+  },
+  {
+    "word": "Cytoplasm",
+    "count": 285
+  },
+  {
+    "word": "hp",
+    "count": 285
+  },
+  {
+    "word": "grats",
+    "count": 285
+  },
+  {
+    "word": "plz",
+    "count": 285
+  },
+  {
+    "word": "Do",
+    "count": 285
+  },
+  {
+    "word": "Is",
+    "count": 285
+  },
+  {
+    "word": "suck",
+    "count": 284
+  },
+  {
+    "word": "later",
+    "count": 284
+  },
+  {
+    "word": "making",
+    "count": 283
+  },
+  {
+    "word": "looks",
+    "count": 283
+  },
+  {
+    "word": "paul",
+    "count": 282
+  },
+  {
+    "word": "edit",
+    "count": 282
+  },
+  {
+    "word": "die",
+    "count": 280
+  },
+  {
+    "word": "cancer",
+    "count": 280
+  },
+  {
+    "word": "match",
+    "count": 278
+  },
+  {
+    "word": "idea",
+    "count": 278
+  },
+  {
+    "word": "Apex",
+    "count": 278
+  },
+  {
+    "word": "Y",
+    "count": 277
+  },
+  {
+    "word": "days",
+    "count": 277
+  },
+  {
+    "word": "bro",
+    "count": 277
+  },
+  {
+    "word": "IS",
+    "count": 277
+  },
+  {
+    "word": "anymore",
+    "count": 276
+  },
+  {
+    "word": "op",
+    "count": 276
+  },
+  {
+    "word": "np",
+    "count": 276
+  },
+  {
+    "word": "sigh",
+    "count": 275
+  },
+  {
+    "word": "IT",
+    "count": 274
+  },
+  {
+    "word": "night",
+    "count": 274
+  },
+  {
+    "word": "trivia",
+    "count": 273
+  },
+  {
+    "word": "psychic",
+    "count": 273
+  },
+  {
+    "word": "school",
+    "count": 273
+  },
+  {
+    "word": "attack",
+    "count": 271
+  },
+  {
+    "word": "needs",
+    "count": 271
+  },
+  {
+    "word": "own",
+    "count": 271
+  },
+  {
+    "word": "54",
+    "count": 271
+  },
+  {
+    "word": "few",
+    "count": 270
+  },
+  {
+    "word": "flying",
+    "count": 270
+  },
+  {
+    "word": "huh",
+    "count": 268
+  },
+  {
+    "word": "Black",
+    "count": 268
+  },
+  {
+    "word": "Use",
+    "count": 266
+  },
+  {
+    "word": "says",
+    "count": 266
+  },
+  {
+    "word": "great",
+    "count": 265
+  },
+  {
+    "word": "100",
+    "count": 265
+  },
+  {
+    "word": "times",
+    "count": 264
+  },
+  {
+    "word": "wins",
+    "count": 264
+  },
+  {
+    "word": "fight",
+    "count": 263
+  },
+  {
+    "word": "password",
+    "count": 263
+  },
+  {
+    "word": "friends",
+    "count": 263
+  },
+  {
+    "word": "Catalystic",
+    "count": 263
+  },
+  {
+    "word": "end",
+    "count": 263
+  },
+  {
+    "word": "illusion",
+    "count": 263
+  },
+  {
+    "word": "account",
+    "count": 261
+  },
+  {
+    "word": "ikr",
+    "count": 261
+  },
+  {
+    "word": "wat",
+    "count": 261
+  },
+  {
+    "word": "dead",
+    "count": 261
+  },
+  {
+    "word": "docs",
+    "count": 261
+  },
+  {
+    "word": "Bui",
+    "count": 260
+  },
+  {
+    "word": "replay",
+    "count": 260
+  },
+  {
+    "word": "saw",
+    "count": 260
+  },
+  {
+    "word": "Legacy",
+    "count": 259
+  },
+  {
+    "word": "found",
+    "count": 259
+  },
+  {
+    "word": "feelscx",
+    "count": 258
+  },
+  {
+    "word": "af",
+    "count": 258
+  },
+  {
+    "word": "grass",
+    "count": 256
+  },
+  {
+    "word": "online",
+    "count": 256
+  },
+  {
+    "word": "shark",
+    "count": 256
+  },
+  {
+    "word": "BE",
+    "count": 255
+  },
+  {
+    "word": "little",
+    "count": 255
+  },
+  {
+    "word": "head",
+    "count": 254
+  },
+  {
+    "word": "fender",
+    "count": 253
+  },
+  {
+    "word": "63",
+    "count": 253
+  },
+  {
+    "word": "42",
+    "count": 253
+  },
+  {
+    "word": "th",
+    "count": 252
+  },
+  {
+    "word": "uh",
+    "count": 252
+  },
+  {
+    "word": "Jigglykong",
+    "count": 252
+  },
+  {
+    "word": "changed",
+    "count": 252
+  },
+  {
+    "word": "bot",
+    "count": 252
+  },
+  {
+    "word": "types",
+    "count": 252
+  },
+  {
+    "word": "without",
+    "count": 252
+  },
+  {
+    "word": "ive",
+    "count": 252
+  },
+  {
+    "word": "having",
+    "count": 251
+  },
+  {
+    "word": "feelsbirb",
+    "count": 250
+  },
+  {
+    "word": "yup",
+    "count": 250
+  },
+  {
+    "word": "hello",
+    "count": 250
+  },
+  {
+    "word": "money",
+    "count": 249
+  },
+  {
+    "word": "makes",
+    "count": 248
+  },
+  {
+    "word": "credits",
+    "count": 248
+  },
+  {
+    "word": "hacked",
+    "count": 247
+  },
+  {
+    "word": "Face",
+    "count": 247
+  },
+  {
+    "word": "question",
+    "count": 246
+  },
+  {
+    "word": "pick",
+    "count": 246
+  },
+  {
+    "word": "EA",
+    "count": 245
+  },
+  {
+    "word": "DA",
+    "count": 245
+  },
+  {
+    "word": "global",
+    "count": 245
+  },
+  {
+    "word": "chance",
+    "count": 245
+  },
+  {
+    "word": "asked",
+    "count": 244
+  },
+  {
+    "word": "bluecyclone",
+    "count": 243
+  },
+  {
+    "word": "mind",
+    "count": 243
+  },
+  {
+    "word": "gif",
+    "count": 243
+  },
+  {
+    "word": "anyway",
+    "count": 243
+  },
+  {
+    "word": "bitch",
+    "count": 242
+  },
+  {
+    "word": "hours",
+    "count": 242
+  },
+  {
+    "word": "locked",
+    "count": 242
+  },
+  {
+    "word": "hoopa",
+    "count": 242
+  },
+  {
+    "word": "Happy",
+    "count": 241
+  },
+  {
+    "word": "Lelouch",
+    "count": 241
+  },
+  {
+    "word": "almost",
+    "count": 241
+  },
+  {
+    "word": "show",
+    "count": 241
+  },
+  {
+    "word": "gave",
+    "count": 238
+  },
+  {
+    "word": "FUCK",
+    "count": 238
+  },
+  {
+    "word": "bring",
+    "count": 238
+  },
+  {
+    "word": "omg",
+    "count": 238
+  },
+  {
+    "word": "champ",
+    "count": 237
+  },
+  {
+    "word": "welp",
+    "count": 237
+  },
+  {
+    "word": "Dragotic",
+    "count": 236
+  },
+  {
+    "word": "bust",
+    "count": 236
+  },
+  {
+    "word": "tot",
+    "count": 236
+  },
+  {
+    "word": "thelotusleague",
+    "count": 235
+  },
+  {
+    "word": "send",
+    "count": 235
+  },
+  {
+    "word": "͜",
+    "count": 235
+  },
+  {
+    "word": "2656",
+    "count": 235
+  },
+  {
+    "word": "eh",
+    "count": 234
+  },
+  {
+    "word": "Like",
+    "count": 233
+  },
+  {
+    "word": "Alliance",
+    "count": 233
+  },
+  {
+    "word": "myself",
+    "count": 233
+  },
+  {
+    "word": "Paul",
+    "count": 233
+  },
+  {
+    "word": "bc",
+    "count": 232
+  },
+  {
+    "word": "Good",
+    "count": 232
+  },
+  {
+    "word": "soon",
+    "count": 232
+  },
+  {
+    "word": "voice",
+    "count": 231
+  },
+  {
+    "word": "gone",
+    "count": 230
+  },
+  {
+    "word": "link",
+    "count": 228
+  },
+  {
+    "word": "Prof",
+    "count": 227
+  },
+  {
+    "word": "max",
+    "count": 227
+  },
+  {
+    "word": "problem",
+    "count": 227
+  },
+  {
+    "word": "hm",
+    "count": 227
+  },
+  {
+    "word": "anyways",
+    "count": 227
+  },
+  {
+    "word": "bruh",
+    "count": 227
+  },
+  {
+    "word": "feelsvpn",
+    "count": 226
+  },
+  {
+    "word": "care",
+    "count": 226
+  },
+  {
+    "word": "feelspn",
+    "count": 225
+  },
+  {
+    "word": "dick",
+    "count": 225
+  },
+  {
+    "word": "through",
+    "count": 225
+  },
+  {
+    "word": "wut",
+    "count": 225
+  },
+  {
+    "word": "xd",
+    "count": 225
+  },
+  {
+    "word": "Gamez",
+    "count": 225
+  },
+  {
+    "word": "ground",
+    "count": 225
+  },
+  {
+    "word": "xoxo",
+    "count": 225
+  },
+  {
+    "word": "All",
+    "count": 224
+  },
+  {
+    "word": "ME",
+    "count": 224
+  },
+  {
+    "word": "04379",
+    "count": 223
+  },
+  {
+    "word": "yep",
+    "count": 223
+  },
+  {
+    "word": "Godot",
+    "count": 222
+  },
+  {
+    "word": "theamazingjando",
+    "count": 222
+  },
+  {
+    "word": "chose",
+    "count": 221
+  },
+  {
+    "word": "moves",
+    "count": 221
+  },
+  {
+    "word": "afk",
+    "count": 221
+  },
+  {
+    "word": "legit",
+    "count": 220
+  },
+  {
+    "word": "pokemonshowdown",
+    "count": 220
+  },
+  {
+    "word": "stall",
+    "count": 219
+  },
+  {
+    "word": "gym",
+    "count": 219
+  },
+  {
+    "word": "feelsamy",
+    "count": 218
+  },
+  {
+    "word": "busy",
+    "count": 218
+  },
+  {
+    "word": "list",
+    "count": 218
+  },
+  {
+    "word": "kek",
+    "count": 217
+  },
+  {
+    "word": "Palm",
+    "count": 217
+  },
+  {
+    "word": "sec",
+    "count": 216
+  },
+  {
+    "word": "compatible",
+    "count": 215
+  },
+  {
+    "word": "theace",
+    "count": 215
+  },
+  {
+    "word": "brb",
+    "count": 215
+  },
+  {
+    "word": "net",
+    "count": 215
+  },
+  {
+    "word": "wish",
+    "count": 215
+  },
+  {
+    "word": "wasnt",
+    "count": 215
+  },
+  {
+    "word": "knew",
+    "count": 214
+  },
+  {
+    "word": "sets",
+    "count": 214
+  },
+  {
+    "word": "Ninja",
+    "count": 214
+  },
+  {
+    "word": "Illusion",
+    "count": 214
+  },
+  {
+    "word": "break",
+    "count": 212
+  },
+  {
+    "word": "um",
+    "count": 212
+  },
+  {
+    "word": "big",
+    "count": 211
+  },
+  {
+    "word": "must",
+    "count": 211
+  },
+  {
+    "word": "called",
+    "count": 211
+  },
+  {
+    "word": "26",
+    "count": 211
+  },
+  {
+    "word": "part",
+    "count": 210
+  },
+  {
+    "word": "spam",
+    "count": 210
+  },
+  {
+    "word": "sleep",
+    "count": 210
+  },
+  {
+    "word": "itsme",
+    "count": 209
+  },
+  {
+    "word": "read",
+    "count": 209
+  },
+  {
+    "word": "dojo",
+    "count": 208
+  },
+  {
+    "word": "memes",
+    "count": 208
+  },
+  {
+    "word": "easy",
+    "count": 208
+  },
+  {
+    "word": "learn",
+    "count": 208
+  },
+  {
+    "word": "face",
+    "count": 208
+  },
+  {
+    "word": "tf",
+    "count": 208
+  },
+  {
+    "word": "place",
+    "count": 207
+  },
+  {
+    "word": "gtg",
+    "count": 207
+  },
+  {
+    "word": "matter",
+    "count": 206
+  },
+  {
+    "word": "252",
+    "count": 206
+  },
+  {
+    "word": "hell",
+    "count": 205
+  },
+  {
+    "word": "rekt",
+    "count": 205
+  },
+  {
+    "word": "may",
+    "count": 205
+  },
+  {
+    "word": "Zero",
+    "count": 205
+  },
+  {
+    "word": "year",
+    "count": 205
+  },
+  {
+    "word": "shadow",
+    "count": 205
+  },
+  {
+    "word": "Alpha",
+    "count": 204
+  },
+  {
+    "word": "unless",
+    "count": 203
+  },
+  {
+    "word": "gdi",
+    "count": 203
+  },
+  {
+    "word": "Wait",
+    "count": 203
+  },
+  {
+    "word": "Which",
+    "count": 202
+  },
+  {
+    "word": "There",
+    "count": 202
+  },
+  {
+    "word": "golden",
+    "count": 201
+  },
+  {
+    "word": "able",
+    "count": 201
+  },
+  {
+    "word": "far",
+    "count": 201
+  },
+  {
+    "word": "heard",
+    "count": 200
+  },
+  {
+    "word": "thinking",
+    "count": 200
+  },
+  {
+    "word": "Bronze",
+    "count": 199
+  },
+  {
+    "word": "games",
+    "count": 199
+  },
+  {
+    "word": "Blackjack",
+    "count": 198
+  },
+  {
+    "word": "took",
+    "count": 198
+  },
+  {
+    "word": "sup",
+    "count": 198
+  },
+  {
+    "word": "ppl",
+    "count": 198
+  },
+  {
+    "word": "jcena",
+    "count": 198
+  },
+  {
+    "word": "works",
+    "count": 198
+  },
+  {
+    "word": "Nah",
+    "count": 197
+  },
+  {
+    "word": "happens",
+    "count": 197
+  },
+  {
+    "word": "punch",
+    "count": 197
+  },
+  {
+    "word": "funny",
+    "count": 197
+  },
+  {
+    "word": "hastebin",
+    "count": 197
+  },
+  {
+    "word": "second",
+    "count": 196
+  },
+  {
+    "word": "joke",
+    "count": 196
+  },
+  {
+    "word": "universe",
+    "count": 196
+  },
+  {
+    "word": "started",
+    "count": 196
+  },
+  {
+    "word": "played",
+    "count": 195
+  },
+  {
+    "word": "HP",
+    "count": 194
+  },
+  {
+    "word": "thank",
+    "count": 194
+  },
+  {
+    "word": "fam",
+    "count": 194
+  },
+  {
+    "word": "players",
+    "count": 193
+  },
+  {
+    "word": "ima",
+    "count": 193
+  },
+  {
+    "word": "When",
+    "count": 193
+  },
+  {
+    "word": "custom",
+    "count": 192
+  },
+  {
+    "word": "GG",
+    "count": 192
+  },
+  {
+    "word": "full",
+    "count": 192
+  },
+  {
+    "word": "tried",
+    "count": 192
+  },
+  {
+    "word": "site",
+    "count": 192
+  },
+  {
+    "word": "Please",
+    "count": 192
+  },
+  {
+    "word": "pair",
+    "count": 191
+  },
+  {
+    "word": "TO",
+    "count": 191
+  },
+  {
+    "word": "winning",
+    "count": 191
+  },
+  {
+    "word": "inb",
+    "count": 191
+  },
+  {
+    "word": "believe",
+    "count": 190
+  },
+  {
+    "word": "came",
+    "count": 190
+  },
+  {
+    "word": "such",
+    "count": 189
+  },
+  {
+    "word": "girl",
+    "count": 189
+  },
+  {
+    "word": "buy",
+    "count": 189
+  },
+  {
+    "word": "wasn",
+    "count": 188
+  },
+  {
+    "word": "happen",
+    "count": 188
+  },
+  {
+    "word": "Phil",
+    "count": 188
+  },
+  {
+    "word": "users",
+    "count": 188
+  },
+  {
+    "word": "spot",
+    "count": 187
+  },
+  {
+    "word": "george",
+    "count": 187
+  },
+  {
+    "word": "song",
+    "count": 187
+  },
+  {
+    "word": "free",
+    "count": 186
+  },
+  {
+    "word": "stupid",
+    "count": 186
+  },
+  {
+    "word": "ew",
+    "count": 186
+  },
+  {
+    "word": "meh",
+    "count": 186
+  },
+  {
+    "word": "quote",
+    "count": 186
+  },
+  {
+    "word": "UW",
+    "count": 185
+  },
+  {
+    "word": "Au",
+    "count": 185
+  },
+  {
+    "word": "member",
+    "count": 185
+  },
+  {
+    "word": "kick",
+    "count": 184
+  },
+  {
+    "word": "minutes",
+    "count": 184
+  },
+  {
+    "word": "weird",
+    "count": 184
+  },
+  {
+    "word": "sent",
+    "count": 183
+  },
+  {
+    "word": "mad",
+    "count": 183
+  },
+  {
+    "word": "Rock",
+    "count": 182
+  },
+  {
+    "word": "llama",
+    "count": 182
+  },
+  {
+    "word": "testing",
+    "count": 182
+  },
+  {
+    "word": "happy",
+    "count": 182
+  },
+  {
+    "word": "User",
+    "count": 182
+  },
+  {
+    "word": "wincon",
+    "count": 182
+  },
+  {
+    "word": "added",
+    "count": 182
+  },
+  {
+    "word": "whole",
+    "count": 181
+  },
+  {
+    "word": "looking",
+    "count": 181
+  },
+  {
+    "word": "high",
+    "count": 181
+  },
+  {
+    "word": "♠A",
+    "count": 180
+  },
+  {
+    "word": "half",
+    "count": 180
+  },
+  {
+    "word": "Itасhi",
+    "count": 180
+  },
+  {
+    "word": "tht",
+    "count": 180
+  },
+  {
+    "word": "open",
+    "count": 180
+  },
+  {
+    "word": "hayley",
+    "count": 179
+  },
+  {
+    "word": "tfw",
+    "count": 179
+  },
+  {
+    "word": "quick",
+    "count": 178
+  },
+  {
+    "word": "K",
+    "count": 178
+  },
+  {
+    "word": "They",
+    "count": 178
+  },
+  {
+    "word": "thx",
+    "count": 178
+  },
+  {
+    "word": "04",
+    "count": 178
+  },
+  {
+    "word": "40",
+    "count": 178
+  },
+  {
+    "word": "♣A",
+    "count": 177
+  },
+  {
+    "word": "oml",
+    "count": 177
+  },
+  {
+    "word": "theres",
+    "count": 177
+  },
+  {
+    "word": "Szqy",
+    "count": 177
+  },
+  {
+    "word": "dumb",
+    "count": 177
+  },
+  {
+    "word": "Champ",
+    "count": 177
+  },
+  {
+    "word": "ded",
+    "count": 177
+  },
+  {
+    "word": "Creature",
+    "count": 176
+  },
+  {
+    "word": "yr",
+    "count": 176
+  },
+  {
+    "word": "means",
+    "count": 175
+  },
+  {
+    "word": "meant",
+    "count": 175
+  },
+  {
+    "word": "feelshp",
+    "count": 175
+  },
+  {
+    "word": "♥A",
+    "count": 174
+  },
+  {
+    "word": "Did",
+    "count": 174
+  },
+  {
+    "word": "bet",
+    "count": 173
+  },
+  {
+    "word": "Lt",
+    "count": 173
+  }
+]

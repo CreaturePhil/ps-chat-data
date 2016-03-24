@@ -2,8 +2,8 @@
 var express = require('express');
 var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
-var _ = require('lodash');
-var reducer_1 = require('./data/reducer');
+var fs = require('fs');
+var path = require('path');
 var app = express();
 app.set('json spaces', 4);
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -12,7 +12,6 @@ var token = process.env.TOKEN;
 var url = process.env.MONGODB || 'mongodb://localhost:27017/myproject';
 var port = process.env.PORT || 3000;
 mongoose.connect(url);
-var l = {};
 var MessageModel = new mongoose.Schema({
     name: String,
     message: String,
@@ -21,12 +20,6 @@ var MessageModel = new mongoose.Schema({
     typeData: String
 });
 var Messages = mongoose.model('Message', MessageModel);
-Messages.find({}, function (err, data) {
-    var phrases = _.chain(data)
-        .map('message')
-        .value();
-    l = reducer_1.default(phrases, 'phrase', 100);
-});
 app.get('/', function (req, res) {
     res.send('hello world!');
 });
@@ -41,12 +34,6 @@ app.post('/add', function (req, res) {
         type: req.body.type,
         typeData: req.body.typeData
     });
-    Messages.find({}, function (err, data) {
-        var phrases = _.chain(data)
-            .map('message')
-            .value();
-        l = reducer_1.default(phrases, 'phrase', 100);
-    });
     message.save(function (err) {
         if (err) {
             console.error(err);
@@ -57,44 +44,21 @@ app.post('/add', function (req, res) {
         }
     });
 });
-app.get('/word', function (req, res, next) {
-    var q = Messages.find({}).sort({ 'date': -1 }).limit(1000);
-    console.time('hi');
-    q.exec(function (err, data) {
-        console.timeEnd('hi');
-        var words = _.chain(data)
-            .map('message')
-            .map(_.words)
-            .flatten()
-            .value();
-        res.json(reducer_1.default(words, 'word', 100));
-    });
+app.get('/word', function (req, res) {
+    var stream = fs.createReadStream(path.join(__dirname, '../word.json'));
+    stream.pipe(res);
 });
 app.get('/phrase', function (req, res) {
-    res.json(l);
+    var stream = fs.createReadStream(path.join(__dirname, '../phrase.json'));
+    stream.pipe(res);
 });
 app.get('/user', function (req, res) {
-    var q = Messages.find({}).sort({ 'date': -1 }).limit(20000);
-    q.exec(function (err, data) {
-        Messages.find({}, function (err, data) {
-            var names = _.chain(data)
-                .map('name')
-                .value();
-            res.json(reducer_1.default(names, 'user', 100));
-        });
-    });
+    var stream = fs.createReadStream(path.join(__dirname, '../user.json'));
+    stream.pipe(res);
 });
 app.get('/room', function (req, res) {
-    var q = Messages.find({}).sort({ 'date': -1 }).limit(20000);
-    q.exec(function (err, data) {
-        Messages.find({}, function (err, data) {
-            var rooms = _.chain(data)
-                .filter({ type: 'room' })
-                .map('typeData')
-                .value();
-            res.json(reducer_1.default(rooms, 'room', 100));
-        });
-    });
+    var stream = fs.createReadStream(path.join(__dirname, '../room.json'));
+    stream.pipe(res);
 });
 app.listen(port, function () { return console.log('Listening on port ' + port); });
 //# sourceMappingURL=app.js.map
