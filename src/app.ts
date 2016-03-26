@@ -3,6 +3,7 @@ import * as mongoose from 'mongoose';
 import * as bodyParser from 'body-parser';
 import * as fs from 'fs';
 import * as path from 'path';
+import * as _ from 'lodash';
 
 const app = express();
 
@@ -29,6 +30,33 @@ const MessageModel = new mongoose.Schema({
 });
 
 const Messages = mongoose.model('Message', MessageModel);
+var stream = Messages.find({}).stream();
+var phrases = {};
+var words = {};
+var users = {};
+var rooms = {};
+var i = 0;
+stream.on('data', function (data) {
+  if ((++i) % 1000 === 0) {
+    console.log(i)
+  }
+  phrases[data.message] = (phrases[data.message] || 0) + 1;
+  users[data.name] = (users[data.name] || 0) + 1;
+  if (data.type === 'room') {
+    rooms[data.typeData] = (rooms[data.typeData] || 0) + 1;
+  }
+  const w = _.words(data.message);
+  _.forEach(w, word => {
+    words[word] = (words[word] || 0) + 1;
+  });
+});
+function reduce(counts, name, amount) {
+ var keys = _.keys(counts);
+ var data = _.map(keys, (key) => ({
+   [name]: key, count: counts[key]
+ }));
+ return _.sortBy(data, 'count').reverse().slice(0, amount);
+}
 
 app.get('/', (req, res) => {
   res.send('hello world!');
@@ -56,23 +84,20 @@ app.post('/add', (req, res) => {
 });
 
 app.get('/word', (req, res) => {
-  var stream = fs.createReadStream(path.join(__dirname, '../word.json'));
-  stream.pipe(res);
+  delete words['constructor'];
+  res.json(reduce(words, 'word', 1000));
 });
 
 app.get('/phrase', (req, res) => {
-  var stream = fs.createReadStream(path.join(__dirname, '../phrase.json'));
-  stream.pipe(res);
+  res.json(reduce(phrases, 'phrase', 1000));
 });
 
 app.get('/user', (req, res) => {
-  var stream = fs.createReadStream(path.join(__dirname, '../name.json'));
-  stream.pipe(res);
+  res.json(reduce(users, 'user', 1000));
 });
 
 app.get('/room', (req, res) => {
-  var stream = fs.createReadStream(path.join(__dirname, '../room.json'));
-  stream.pipe(res);
+  res.json(reduce(rooms, 'room', 1000));
 });
 
 app.listen(port, () => console.log('Listening on port ' + port));
