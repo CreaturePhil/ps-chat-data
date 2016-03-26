@@ -26,9 +26,6 @@ var users = {};
 var rooms = {};
 var i = 0;
 stream.on('data', function (data) {
-    if ((++i) % 1000 === 0) {
-        console.log(i);
-    }
     phrases[data.message] = (phrases[data.message] || 0) + 1;
     users[data.name] = (users[data.name] || 0) + 1;
     if (data.type === 'room') {
@@ -69,6 +66,16 @@ app.post('/add', function (req, res) {
         }
         else {
             res.send('success');
+            var data = req.body;
+            phrases[data.message] = (phrases[data.message] || 0) + 1;
+            users[data.name] = (users[data.name] || 0) + 1;
+            if (data.type === 'room') {
+                rooms[data.typeData] = (rooms[data.typeData] || 0) + 1;
+            }
+            var w = _.words(data.message);
+            _.forEach(w, function (word) {
+                words[word] = (words[word] || 0) + 1;
+            });
         }
     });
 });

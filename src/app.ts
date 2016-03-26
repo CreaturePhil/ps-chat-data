@@ -37,9 +37,9 @@ var users = {};
 var rooms = {};
 var i = 0;
 stream.on('data', function (data) {
-  if ((++i) % 1000 === 0) {
-    console.log(i)
-  }
+  // if ((++i) % 1000 === 0) {
+  //   console.log(i)
+  // }
   phrases[data.message] = (phrases[data.message] || 0) + 1;
   users[data.name] = (users[data.name] || 0) + 1;
   if (data.type === 'room') {
@@ -79,6 +79,16 @@ app.post('/add', (req, res) => {
       res.send('failure');
     } else {
       res.send('success');
+      var data = req.body;
+      phrases[data.message] = (phrases[data.message] || 0) + 1;
+      users[data.name] = (users[data.name] || 0) + 1;
+      if (data.type === 'room') {
+        rooms[data.typeData] = (rooms[data.typeData] || 0) + 1;
+      }
+      const w = _.words(data.message);
+      _.forEach(w, word => {
+        words[word] = (words[word] || 0) + 1;
+      });
     }
   });
 });
